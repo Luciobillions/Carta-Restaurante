@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-image: url("./icons/ingredientes-espacio-copia-fideos_23-2148551674.jpg");
+    background-image: url("../icons/ingredientes-espacio-copia-fideos_23-2148551674.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -69,7 +69,7 @@ cursor: pointer;
 }
 @font-face {
     font-family: 'TimberLine' ;
-    src: url(./fonts/Resistenza\ -\ Timberline\ Regular.otf);
+    src: url(../fonts/Resistenza\ -\ Timberline\ Regular.otf);
 font-weight:bolder;
 font-style: italic;
 
