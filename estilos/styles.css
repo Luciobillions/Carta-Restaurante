@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("/icons/ingredientes-espacio-copia-fideos_23-2148551674.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0px solid;
+    background: #f9e740;
+    border-radius: 6%;
+}
+#carta {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.plato:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.8);
+}
+.plato {
+
+    width: calc(27.33% - 20px); /* 3 platos por fila */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0,0.2);
+    transition: all 400ms ease;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.carrito{
+    width: auto;
+cursor: pointer;
+}
+.precio {
+    color: green;
+}
+#buscador {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'TimberLine' ;
+    src: url(/fonts/Resistenza\ -\ Timberline\ Regular.otf);
+font-weight:bolder;
+font-style: italic;
+
+    
+}
+h1{
+    font-family:'TimberLine' ;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .plato {
+        width: calc(60% - 30px); 
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .plato {
+        width: calc(95% - 50px);
+        margin-bottom: 10px; 
+    }
+    h1{
+
+    }
+}
